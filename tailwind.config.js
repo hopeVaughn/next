@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["var(--font-montserrat)"],
-      }
+      },
     },
   },
   plugins: [],

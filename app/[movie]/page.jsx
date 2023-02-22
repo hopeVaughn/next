@@ -13,7 +13,11 @@ export default async function MovieDetail({ params }) {
         <h2>Runtime: {res.runtime} minutes</h2>
         <h2 className="bg-green-600 inline-block my-2 py-2 px-4 rounded-lg text-sm">{res.status}</h2>
         <Image 
-        
+        className="my-12 w-full" 
+        src={imagePath + res.backdrop_path}
+        width={1000}
+        height={1000}
+        priority
         />
       </div>
     </div>
